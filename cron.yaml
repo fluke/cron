@@ -1,0 +1,12 @@
+cron:
+- description: daily
+  url: /daily
+  schedule: every day 10:00
+
+- description: bimonthly
+  url: /bimonthly
+  schedule: second,fourth mon of month 10:00
+  
+- description: monthly
+  url: /monthly
+  schedule: 1 of month 10:00
